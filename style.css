@@ -1,0 +1,101 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/*Header*/
+
+/* nav {
+    background-color: blanchedalmond; }*/
+
+
+.header--container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header--container a {
+    position: relative;
+    height: 50px;
+}
+
+.header--container img {
+    width: 150px;
+    height: auto;
+    display: inline-block;
+    margin: 10px;
+}
+
+.header--botton{
+    display: inline-block;
+}
+
+.header--botton a {
+    margin: 10px;
+    text-decoration: none;
+}
+
+/*Main*/
+/*Section 1*/
+
+.main--section_presentation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: aqua; */
+}
+
+.main--section_presentation img {
+    max-width: calc(100% - 500px);
+    height: auto;
+    margin: 30px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.main--section__container {
+    width: 350px;
+    height: auto;
+    margin: 30px;
+    /* background-color: brown; */
+}
+
+.main--section__container h2{
+    text-align: center;
+    margin-bottom: 7px;
+}
+
+.main--section__container p {
+    text-align: center;
+}
+
+/*Section 2*/
+
+.main--section__explanation {
+    background-image: url(./images/callcenter2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    height: auto;
+}
+
+.main--section__explanation h2 {
+    text-align: center;
+    color: aliceblue;
+    margin: 30px;
+}
+
+.main--section__explanation p {
+    color: aliceblue;
+    text-align: justify;
+}
+
+.main--section__card {
+    margin: 200px;
+    padding: 120px;
+    background-color: black;
+    border-radius: 10%;
+    opacity: 0.5;
+}
