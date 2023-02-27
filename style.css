@@ -74,6 +74,7 @@
 /*Section 2*/
 
 .main--section__explanation {
+    padding: 120px;
     background-image: url(./images/callcenter2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -92,10 +93,18 @@
     text-align: justify;
 }
 
-.main--section__card {
-    margin: 200px;
-    padding: 120px;
-    background-color: black;
-    border-radius: 10%;
-    opacity: 0.5;
+.main--section__button {
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+}
+
+.main--section__card  a {
+    width: 120px;
+    height: auto;
+    text-decoration: none;
+    text-align: center;
+    background-color: aliceblue;
+    border-radius: 30px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
 }
