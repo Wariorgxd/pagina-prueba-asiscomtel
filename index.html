@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Página principal de la empresa Asiscomtel. CIA. LTDA.">
     <title>Asiscomtel - Servicio de alquiler de call center</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,11 +16,11 @@
     <header>
         <nav>
             <div class="header--container">
-                <a href="/#">
+                <a href="#">
                     <img src="/images/logo-asiscomtel.png" alt="Logo asiscomtel">
                 </a>
                 <div class="header--botton">
-                    <a href="#">Contáctanos</a>
+                    <a href="#formulario">Contáctanos</a>
                     <a href="#">Saber mas</a>
                 </div>
             </div>
@@ -39,12 +40,48 @@
                     <h2>¡Un mundo de posibilidades!</h2>
                     <p>Aute minim ex consectetur ullamco sunt nostrud enim et minim nisi magna duis. Id in sit amet incididunt dolore aliquip. Ad mollit sint mollit sint minim eiusmod anim Lorem eu duis non proident qui. Incididunt dolore aliquip ipsum elit do. Officia enim consequat qui duis tempor ea sint tempor fugiat et. Elit do aliqua in et culpa incididunt eu consequat aliquip id labore. Quis aliqua duis laborum officia labore reprehenderit consectetur in.</p>
                     <div class="main--section__button">
-                        <a href="#">Contáctanos</a>
+                        <a href="#formulario">Contáctanos</a>
                     </div>
                 </div>
             </div>
         </section>
+        <section class="form--section" id="formulario">
+            <div class="form--presentacion">
+                <h2>¿Quieres saber mas?</h2>
+                <p>Dolore voluptate occaecat magna voluptate aliqua veniam occaecat officia commodo ullamco anim quis pariatur sit.</p>
+            </div>
+            <form action="#" class="formulario">
+                <label for="nombre">
+                    <span>Escribe tu nombre: </span><br>
+                    <input type="text" name="nombre" id="nombre" placeholder="Ej. Sebastian"><br>
+                </label>
+                <label for="correo">
+                    <span>Escribe tu Correo: </span><br>
+                    <input type="email" name="correo" id="correo" placeholder="Ej. example@example.com"><br>
+                </label>
+                <label for="msg">
+                    <span>Escribe tu mensaje: </span><br>
+                    <textarea id="msg" name="msg"></textarea>
+                </label><br>
+                <button type="submit" onclick="">Enviar</button>
+            </form>
+        </section>
     </main>
-    <footer></footer>
+    <footer class="footer">
+        <a href="#">
+            <img src="/images/logo-asiscomtel.png" alt="Logo asiscomtel">
+        </a>
+        <div class="footer--description">
+            <h3>Hola</h3>
+            <p>Tempor aliquip consequat voluptate reprehenderit exercitation elit pariatur consectetur labore id.</p>
+        </div>
+        <div class="footer--social">
+            <ul>
+                <li><a href="https://www.facebook.com/learningdigitalcourse" target="_blank">Facebook</a></li>
+                <li><a href="https://www.instagram.com/marketing_digital_course/" target="_blank">Instagram</a></li>
+                <li><a href="https://marketingdigitalcourse.com/" target="_blank">Página web</a></li>
+            </ul>
+        </div>
+    </footer>
 </body>
 </html>

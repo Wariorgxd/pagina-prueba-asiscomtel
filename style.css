@@ -102,9 +102,78 @@
 .main--section__card  a {
     width: 120px;
     height: auto;
+    padding: 10px;
+    font-weight: bold;
+    color: black;
     text-decoration: none;
     text-align: center;
     background-color: aliceblue;
     border-radius: 30px;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+/*Formulario*/
+
+.form--section {
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.form--presentacion {
+    width: 350px;
+    height: auto;
+    margin: 30px;
+}
+
+.formulario {
+    width: 350px;
+    height: auto;
+    margin: 30px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.formulario button {
+    width: 120px;
+    height: auto;
+    padding: 10px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    background-color: aliceblue;
+    border-radius: 30px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+/*Footer*/
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: gainsboro;
+}
+
+.footer img {
+    width: 300px;
+    height: auto;
+    padding: 20px;
+}
+
+.footer--description {
+    max-width: 1000px;
+    padding: 15px;
+    height: auto;
+}
+
+.footer--social {
+    width: auto;
+    height: auto;
+    padding: 15px;
+}
+
+.footer--social ul a{
+    text-decoration: none;
+    color: black;
 }
