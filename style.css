@@ -1,7 +1,20 @@
+/*
+    1. Posicionamiento
+    2. Modelo de caja
+    3. Tipografía
+    4. Estilos visuales -> Box-shadow, border radius
+    5. Otros -> Reglas CSS
+*/
+
 * {
-    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Poppins', sans-serif;
 }
 
 /*Header*/
@@ -33,6 +46,7 @@
 }
 
 .header--botton a {
+    font-size: 1.4rem;
     margin: 10px;
     text-decoration: none;
 }
@@ -44,7 +58,6 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* background-color: aqua; */
 }
 
 .main--section_presentation img {
@@ -63,12 +76,14 @@
 }
 
 .main--section__container h2{
+    font-size: 3rem;
     text-align: center;
     margin-bottom: 7px;
 }
 
 .main--section__container p {
     text-align: center;
+    font-size: 1.5rem;
 }
 
 /*Section 2*/
@@ -86,11 +101,14 @@
     text-align: center;
     color: aliceblue;
     margin: 30px;
+    font-size: 3.0rem;
 }
 
 .main--section__explanation p {
     color: aliceblue;
     text-align: justify;
+    font-weight: lighter;
+    font-size: 1.5rem;
 }
 
 .main--section__button {
@@ -107,6 +125,8 @@
     color: black;
     text-decoration: none;
     text-align: center;
+    font-weight: bold;
+    font-size: 1rem;
     background-color: aliceblue;
     border-radius: 30px;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
@@ -166,6 +186,15 @@
     padding: 15px;
     height: auto;
 }
+.footer--description h3 {
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+.footer--description p {
+    text-align: center;
+    font-size: 1.2rem;
+}
 
 .footer--social {
     width: auto;
@@ -176,4 +205,5 @@
 .footer--social ul a{
     text-decoration: none;
     color: black;
+    font-size: 1rem;
 }
